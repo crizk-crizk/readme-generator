@@ -21,11 +21,23 @@ const questions = [
     name: "tableOfContents",
     message: "Would you like to have a table of contents?",
   },
+  //start installation question
   {
     type: "input",
-    name: "installation",
-    message: "What are the steps required to install your project?",
+    name: "installation1",
+    message: "What is the first step required to install your project?",
   },
+  {
+    type: "input",
+    name: "installation2",
+    message: "What is the second step required to install your project? If none, hit enter.",
+  },
+  {
+    type: "input",
+    name: "installation3",
+    message: "What is the third step required to install your project? If none, hit enter.",
+  },
+  //end installation question
   {
     type: "input",
     name: "usage",
@@ -69,7 +81,7 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
   inquirer.prompt(questions).then((answers) => {
-    // Use user feedback for... whatever!!
+    // Use user feedback to generate data to pass in generate markdown
     console.log(answers);
     writeToFile("README.md", generateMarkdown(answers));
   });
