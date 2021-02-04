@@ -64,7 +64,7 @@ ${tableContent(data)}
 ${data.usage}
 
 ## License
-${data.license}
+${renderLicenseBadge(data.license)}
 
 ## Contributing
 ${data.contributors}
