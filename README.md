@@ -1,36 +1,37 @@
-# cool
+# Readme Generator
 
 ## Description
-busy bee
+good things
 
 ## Table of Contents 
-    [Installation Steps
-    ](#installation-steps)
-    [Usage](#usage)
-    [License](#license)
-    [Contributing](#contributing)
-    [Tests](#tests)
-    [Questions](#questions)
+[Installation Steps](#installation-steps)
+[Usage](#usage)
+[License](#license)
+[Contributing](#contributing)
+[Tests](#tests)
+[Questions](#questions)
     
 
 ## Installation Steps
-1. clone repo to 
-2. run npm install
-3. hide secrets in .ignore
+1. clone repo
+2. run npm 
+3. go crazy
 
 ## Usage
-enjoy!
+type type
 
 ## License
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
-## Contributing
-Jon, Ana, Ingrid
-Open a pull request
+## Contributions
+
+These are all the amazing contributors in this project: ana ben jon
+
+If you'd like to contribute, call me
 
 ## Tests
-There are no tests in this projects
+none
 
 ## Questions
-* Find me on [GitHub](https://github.com/undefined)
+* Find me on [GitHub](https://github.com/crizk-crizk)
 * Emmail me at carolinarizk@gmail.com

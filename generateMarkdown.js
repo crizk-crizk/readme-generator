@@ -8,18 +8,18 @@ function renderLicenseBadge(license) {
     case "Apache 2.0":
       // code block
       return `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`;
-    case 'GNU':
+    case "GNU":
       // code block
       return `[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)`;
-    case 'Mozilla Public License 2.0':
+    case "Mozilla Public License 2.0":
       // code block
       return `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)`;
-    case 'Eclipse Public License 1.0':
+    case "Eclipse Public License 1.0":
       // code block
       return `[![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)](https://opensource.org/licenses/EPL-1.0)`;
     default:
-    // code block
-    return '';
+      // code block
+      return "";
   }
 }
 
@@ -35,13 +35,12 @@ function renderLicenseSection(license) {}
 function tableContent(data) {
   return data.tableOfContents
     ? `## Table of Contents 
-    [Installation Steps
-    ](#installation-steps)
-    [Usage](#usage)
-    [License](#license)
-    [Contributing](#contributing)
-    [Tests](#tests)
-    [Questions](#questions)
+[Installation Steps](#installation-steps)
+[Usage](#usage)
+[License](#license)
+[Contributing](#contributing)
+[Tests](#tests)
+[Questions](#questions)
     `
     : null;
 }
@@ -66,15 +65,17 @@ ${data.usage}
 ## License
 ${renderLicenseBadge(data.license)}
 
-## Contributing
-${data.contributors}
-${data.contributing}
+## Contributions
+
+These are all the amazing contributors in this project: ${data.contributors}
+
+If you'd like to contribute, ${data.contributing}
 
 ## Tests
 ${data.test}
 
 ## Questions
-* Find me on [GitHub](https://github.com/${data.github})
+* Find me on [GitHub](https://github.com/${data.gitHub})
 * Emmail me at ${data.email}
 `;
 }
