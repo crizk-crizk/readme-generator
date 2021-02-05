@@ -41,7 +41,7 @@ const questions = [
   {
     type: "input",
     name: "usage",
-    message: "Providde instructions and example for use",
+    message: "Enter the command to launch the application",
   },
   {
     type: "list",
