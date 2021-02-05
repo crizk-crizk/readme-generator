@@ -46,7 +46,6 @@ function renderLicenseSection(license) {
       // code block
       return "";
   }
-
 }
 
 //function to render table of contents
