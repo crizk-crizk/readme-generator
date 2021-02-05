@@ -53,10 +53,15 @@ function tableContent(data) {
   return data.tableOfContents
     ? `## Table of Contents 
 [Installation Steps](#installation-steps)
+
 [Usage](#usage)
+
 [License](#license)
+
 [Contributing](#contributing)
+
 [Tests](#tests)
+
 [Questions](#questions)
     `
     : null;
