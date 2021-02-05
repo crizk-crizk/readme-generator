@@ -106,7 +106,7 @@ ${data.test}
 
 ## Questions
 * Find me on [GitHub](https://github.com/${data.gitHub})
-* Emmail me at ${data.email}
+* Email me at ${data.email}
 `;
 }
 
