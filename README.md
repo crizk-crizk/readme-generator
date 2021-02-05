@@ -24,9 +24,9 @@ This app allows to create a README in a quick and convenient way
 ## Installation Steps
 1. Fork the repo
 2. run nmp install
-3. 
 
 ## Usage
+To launch this application input this command
 ```bash
 node index.js
 ```
@@ -42,11 +42,11 @@ Permissions of this weak copyleft license are conditioned on making available so
 
 These are all the amazing contributors in this project: Carolina.
 
-If you'd like to contribute, Make a pull request
+If you'd like to contribute, make a pull request
 
 ## Tests
 There are no tests in this application.
 
 ## Questions
 * Find me on [GitHub](https://github.com/crizk-crizk)
-* Emmail me at carolinarizk@gmail.com
+* Email me at carolinarizk@gmail.com
