@@ -1,6 +1,6 @@
 # Readme Generator
 
-[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ![A look inside this application](readme-generator.gif)
 
@@ -34,7 +34,7 @@ node index.js
 ## License
 Permissions of this weak copyleft license are conditioned on making available source code of licensed files and modifications of those files under the same license (or in certain cases, one of the GNU licenses). Copyright and license notices must be preserved. Contributors provide an express grant of patent rights. However, a larger work using the licensed work may be distributed under different terms and without source code for files added in the larger work.
 
-[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
 
@@ -47,6 +47,9 @@ If you'd like to contribute, make a pull request
 ## Tests
 There are no tests in this application.
 
-## Questions
-* Find me on [GitHub](https://github.com/crizk-crizk)
-* Email me at carolinarizk@gmail.com
+## Questions?
+Find me on 
+* https://CarolinaRizk.dev
+* [GitHub](https://github.com/crizk-crizk)
+* carolinarizk@gmail.com
+* https://linkedin.com/in/carolina-rizk
